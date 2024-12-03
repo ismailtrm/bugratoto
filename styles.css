@@ -1,0 +1,82 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #a520c3;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav a{
+    background-color: white;
+    border-radius : 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: darkgoldenrod;
+    color: white;
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+section{
+    text-decoration: none;
+    background-color: hotpink;
+    border-radius: 100px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+#foto img {
+    width: 800px; /* Adjust the size as needed */
+    max-height: 300px;
+}
+
+section h1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+section h1 a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+section h1{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
